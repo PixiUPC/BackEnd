@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BpTXJZatBQjOeShgPfvTWjQWfYvZdAVRjxIwb70dMt5J0Cc4WEflnVyJIGqJKb5iKt/rbbOG8ScNKkFFcAAfFA==",
+  "dgSpecHash": "CXn7hhFXKabovWEWbDqO6jc10/lxRYeIEPdvTAq63tiHb6CGghjOGBNESqutmSpp8YCPA8WLR2iwrbN7Npf0AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\Lawyeed.API.csproj",
+  "projectFilePath": "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\Lawyeed.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G5 KC\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\G5 KC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
