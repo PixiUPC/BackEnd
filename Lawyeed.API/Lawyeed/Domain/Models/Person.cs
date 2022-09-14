@@ -12,5 +12,7 @@ public class Person
     public string Type { get; set; }
     
     public IList<PersonPlan> PersonPlans { get; set; } = new List<PersonPlan>();
-
+    
+    public IList<Consult> ConsultsClient { get; set; } = new List<Consult>();
+    public IList<Consult> ConsultsLawyer { get; set; } = new List<Consult>();
 }
