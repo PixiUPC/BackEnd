@@ -1,4 +1,4 @@
-namespace PersonalWorld.API.Personal.Resources;
+namespace Lawyeed.API.Lawyeed.Resources;
 
 public class SavePersonLawyerResource
 {

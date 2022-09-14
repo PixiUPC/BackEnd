@@ -1,7 +1,6 @@
 using AutoMapper;
 using Lawyeed.API.Lawyeed.Domain.Models;
 using Lawyeed.API.Lawyeed.Resources;
-using PersonalWorld.API.Personal.Resources;
 
 namespace Lawyeed.API.Lawyeed.Mapping;
 
