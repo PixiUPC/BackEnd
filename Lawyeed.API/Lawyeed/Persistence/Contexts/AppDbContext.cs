@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public DbSet<PersonLawyer> Lawyers { get; set; }
     
     public DbSet<Plan> Plans { get; set; }
+    public DbSet<PersonPlan> PersonPlans { get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder builder)
@@ -24,13 +25,17 @@ public class AppDbContext : DbContext
         //Person
         builder.Entity<Person>().ToTable("Persons");
         builder.Entity<Plan>().ToTable("Plans");
+        builder.Entity<PersonPlan>().ToTable("PersonPlan");
 
         
         //Relations
         builder.Entity<Person>().HasDiscriminator(p => p.Type)
             .HasValue<Person>("client")
             .HasValue<PersonLawyer>("lawyer");
-        
+        builder.Entity<PersonPlan>()
+            .HasOne(p => p.Plan).WithMany(p => p.PersonPlans).HasForeignKey(p => p.PlanId);
+        builder.Entity<PersonPlan>()
+            .HasOne(p => p.Person).WithMany(p => p.PersonPlans).HasForeignKey(P => P.PersonId);
         //Person
         builder.Entity<Person>().HasKey(p => p.Id);
         builder.Entity<Person>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
