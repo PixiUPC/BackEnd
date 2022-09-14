@@ -3,7 +3,7 @@ using Lawyeed.API.Lawyeed.Domain.Repositories;
 using Lawyeed.API.Lawyeed.Domain.Services;
 using Lawyeed.API.Lawyeed.Domain.Services.Communication;
 
-namespace PersonalWorld.API.Personal.Services;
+namespace Lawyeed.API.Lawyeed.Services;
 
 public class ConsultService: IConsultService
 {
