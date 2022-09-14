@@ -13,5 +13,6 @@ public class Consult
     public int LawyerId { get; set; }
     public Person Lawyer { get; set; }
 
-    
+    public IList<Notification> Notifications { get; set; } = new List<Notification>();
+
 }
