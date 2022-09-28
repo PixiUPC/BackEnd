@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\Lawyeed.API.csproj": {}
+    "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\Lawyeed.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\Lawyeed.API.csproj": {
+    "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\Lawyeed.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\Lawyeed.API.csproj",
+        "projectUniqueName": "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\Lawyeed.API.csproj",
         "projectName": "Lawyeed.API",
-        "projectPath": "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\Lawyeed.API.csproj",
+        "projectPath": "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\Lawyeed.API.csproj",
         "packagesPath": "C:\\Users\\G5 KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G5 KC\\Desktop\\Lawyeed\\Lawyeed.API\\Lawyeed.API\\obj\\",
+        "outputPath": "C:\\Users\\G5 KC\\Documents\\Git hub\\BackEnd\\Lawyeed.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G5 KC\\AppData\\Roaming\\NuGet\\NuGet.Config"
