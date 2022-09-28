@@ -54,7 +54,7 @@ public class PersonLawyersController : ControllerBase
         return resources;
     }
 
-    [HttpPost]
+    [HttpPost("register")]
     public async Task<IActionResult> PostAsync([FromBody] SavePersonLawyerResource resource)
     {
         if (!ModelState.IsValid)
