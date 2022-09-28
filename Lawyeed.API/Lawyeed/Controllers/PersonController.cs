@@ -43,7 +43,7 @@ public class PersonController: ControllerBase
         return resource;
     }
 
-    [HttpPost]
+    [HttpPost("register")]
     public async Task<IActionResult> PostAsync([FromBody] SavePersonResource resource)
     {
         
